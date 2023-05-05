@@ -6,4 +6,4 @@ import datetime
 
 def horario (request):
     horario = datetime.datetime.now()
-    return HttpResponse(horario) 
+    return HttpResponse(horario)  
