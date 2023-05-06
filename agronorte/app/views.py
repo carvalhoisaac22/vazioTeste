@@ -15,5 +15,5 @@ def form_cliente(request):
         form = ClienteForm(request.POST)
         if form.is_valid():
             return HttpResponseRedirect('horario')
-        form = ClienteForm()
+    form = ClienteForm()
     return render(request, 'form_cliente.html', context={'form': form})
