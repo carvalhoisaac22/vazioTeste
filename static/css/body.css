@@ -1,0 +1,533 @@
+.carousel2-inner{
+    filter: opacity(10%);
+ }
+.carousel4-item  { 
+    position: relative;
+}
+.carousel5-item  { 
+    position: absolute;
+    display: flex; 
+    width: 30%;
+    margin-left: 13%;
+    margin-top: 26.6%;
+    opacity: 0.8;
+  }
+  .carousel5-inner{
+    position: relative;
+ }
+
+  /*CARD DA HOME*/
+.quemsomos3 p{
+  width: 440px;
+  padding-top: 90px;
+  margin-left: 65px;
+  position: absolute;
+  font-size: 16px;
+  opacity: 1;
+  color: white;
+  
+}
+
+.proeminencia {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.carousel3-item  { 
+    position: relative;
+ }
+ 
+.seguimentos {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+
+/* cards home */
+.inicial {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 32%;
+}
+.inicial2 {
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 32%;
+}
+
+/* texto card*/
+.quemsomos2{
+    flex-direction: column; 
+    margin-top: 5%;
+    color: #15632c;
+    font-size: 85%;
+    width: 50%;
+}
+.quemsomos3{
+    position: absolute;
+    display: flex;
+    margin-top: 5%;
+    font-size: 85%;
+    width: 50%;
+    color: #fff;
+}
+
+/* botao proeminencia*/
+.btn-donate {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgb(58, 240, 100);
+    --btn-bg-2: rgb(9, 135, 20);
+    --btn-bg-color: hsla(360 100% 100% / 1);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.5em 1.2em;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(25, 194, 70, 0.485), 0px 5px 5px -1px rgba(10, 140, 62, 0.25), inset 4px 4px 8px rgba(149, 195, 167, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+  }
+  
+  .btn-donate:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate:is(:focus, :focus-within,:active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate {
+      transition: linear;
+    }
+  }
+  
+  /* botao seguimentos 1*/
+  .btn-donate1 {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgb(159, 244, 147);
+    --btn-bg-2: rgb(255, 255, 255);
+    --btn-bg-color: rgb(12, 136, 27);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.5em 1.2em;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+  }
+  
+  .btn-donate1:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate1:is(:focus, :focus-within,:active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate1 {
+      transition: linear;
+    }
+  }
+  
+  /* botao seguimentos 2*/
+  .btn-donate2 {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgb(159, 244, 147);
+    --btn-bg-2: rgb(255, 255, 255);
+    --btn-bg-color: rgb(12, 136, 27);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.5em 1.2em;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+  }
+  
+  .btn-donate2:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate2:is(:focus, :focus-within,:active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate2 {
+      transition: linear;
+    }
+  }
+
+    /* botao seguimentos 3*/
+  .btn-donate3 {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgb(159, 244, 147);
+    --btn-bg-2: rgb(255, 255, 255);
+    --btn-bg-color: rgb(12, 136, 27);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.5em 1.2em;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+  }
+  
+  .btn-donate3:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate3:is(:focus, :focus-within,:active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate3 {
+      transition: linear;
+    }
+  }
+
+
+/*slide seguimentos*/
+  .slider1 {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 2%;
+    overflow: hidden;
+  }
+  
+  .slider1-controls {
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    width: 100px;
+    text-align: center;
+    transform: translatex(-50%);
+    z-index: 1000;
+  
+    list-style: none;
+    text-align: center;
+  }
+  
+  .slider1 input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider1-controls label {
+    display: inline-block;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #212121;
+    transition: background-color 0.2s linear;
+  }
+  
+  #btn-1:checked ~ .slider1-controls label[for="btn-1"] {
+    background-color: #ffffff;
+  }
+  
+  #btn-2:checked ~ .slider1-controls label[for="btn-2"] {
+    background-color: #ffffff;
+  }
+  
+  #btn-3:checked ~ .slider1-controls label[for="btn-3"] {
+    background-color: #ffffff;
+  }
+  #btn-4:checked ~ .slider1-controls label[for="btn-1"] {
+    background-color: #ffffff;
+  }
+  
+  #btn-5:checked ~ .slider1-controls label[for="btn-2"] {
+    background-color: #ffffff;
+  }
+  
+  #btn-6:checked ~ .slider1-controls label[for="btn-3"] {
+    background-color: #ffffff;
+  }
+  #btn-7:checked ~ .slider1-controls label[for="btn-3"] {
+    background-color: #ffffff;
+  }
+  
+  /* SLIDES */
+  
+  .slides1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+  
+  .slide1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #277e2e9f;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 85%;
+    height: 200%;
+    color: #fff;
+    opacity: 0;
+    transform: translatex(-100%);
+    border-radius: 15px;
+    transition: transform 250ms linear;
+    font-weight: 600;
+  }
+  
+  .slide1-content {
+    width: 400px;
+  }
+  
+  .slide1-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .slide1-text {
+    margin-bottom: 20px;
+  }
+  
+  .slide1-link {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #0c8927;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+  }
+  
+  .slide1-image img {
+    max-width: 100%;
+    margin-top: 20%;
+  }
+  
+  /* Slide animations */
+  #btn-1:checked ~ .slides1 .slide1:nth-child(1) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  
+  #btn-2:checked ~ .slides1 .slide1:nth-child(2) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  
+  #btn-3:checked ~ .slides1 .slide1:nth-child(3) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  #btn-4:checked ~ .slides1 .slide1:nth-child(1) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  
+  #btn-5:checked ~ .slides1 .slide1:nth-child(2) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  
+  #btn-6:checked ~ .slides1 .slide1:nth-child(3) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  #btn-7:checked ~ .slides1 .slide1:nth-child(3) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  
+  #btn-1:not(:checked) ~ .slides1 .slide1:nth-child(1) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  
+  #btn-2:not(:checked) ~ .slides1 .slide1:nth-child(2) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  
+  #btn-3:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  #btn-4:not(:checked) ~ .slides1 .slide1:nth-child(1) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  
+  #btn-5:not(:checked) ~ .slides1 .slide1:nth-child(2) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  
+  #btn-6:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  #btn-7:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes swap-out {
+    0% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+  
+    50% {
+      transform: translatex(50%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translatex(100%);
+    }
+    150% {
+      transform: translatex(150);
+      opacity: 1;
+    }
+  
+    200% {
+      transform: translatex(200%);
+      opacity: 0;
+    }
+  
+    250% {
+      transform: translatex(250%);
+    }
+    300% {
+      transform: translatex(300%);
+    }
+  }
+  
+  
+  /* card home*/
+  .card {
+    width: 320px;
+    height: 280px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+    border-radius: 100px;
+   }
+   img{
+    border-radius: 8px;
+   }
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #218528;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    color: #0c8927;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #28a33a;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+  
+   /*SUB-NAVBAR*/
+
+.navMenu a{
+color: #ffffff;
+background-color: transparent;
+}
+
+.navMenu:hover{
+  color: #22e940;
+}
+
+
