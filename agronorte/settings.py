@@ -77,12 +77,9 @@ WSGI_APPLICATION = 'agronorte.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-<<<<<<< HEAD
-"""DATABASES = {
-=======
 
-DATABASES = {
->>>>>>> f3574f66be1f24002c2279b0d90d1f44f18b3d5f
+
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
