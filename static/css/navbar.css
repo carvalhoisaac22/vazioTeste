@@ -2,19 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
+
 .navbar {
-    
     padding-left: 250px;
     white-space: nowrap;
     display:flex;
-  
 }
 
-.nav-link{
+.nav-link {
     display: flex;
-    
 }
 
 .navbar-nav a {
@@ -22,17 +19,17 @@
     margin-right: 20px;
     font-family: 'Teko', sans-serif;
     font-size: 21px;
-  
     color: #0f5b26;
 }
+
 .fixed-top {
     position: fixed;
     top: 0;
     right: 0%;
     left: 0%;
     z-index: 1030;
- 
-}
+ }
+
 .navbar-nav a:hover{
     color: rgb(74, 165, 74);  
 }
@@ -46,6 +43,7 @@
 .sub-navbar a:hover{
     color: rgb(74, 165, 74);
 }
+
 /*Adição da barra vertical*/
 .vertical {
     border: none;
@@ -56,6 +54,7 @@
     margin-left: 3%;
     border-color: rgb(8, 161, 21);
 }
+
 /*Adição da barra vertical2*/
 .vertical2 {
     border: none;
@@ -65,29 +64,31 @@
     display: flex;
     border-color: rgb(7, 150, 7);
   
-}
-.imgconta{
+} 
+
+.imgconta {
   margin-left: 6%;
 }
+
 .carousel2-inner{
    filter: opacity(10%);
 }
 
 .form {
     --input-bg: #FFf;
-   /*  background of input */
+    /*  background of input */
     --padding: 2em;
     --rotate: 80deg;
-   /*  rotation degree of input*/
+    /*  rotation degree of input*/
     --gap: 1em;
     /*  gap of items in input */
     --icon-change-color: #15A986;
-   /*  when rotating changed icon color */
+    /*  when rotating changed icon color */
     --height: 43px;
-   /*  height */
+    /*  height */
     width: 200px;
     padding-inline-end: 1em;
-   /*  change this for padding in the end of input */
+    /*  change this for padding in the end of input */
     background: var(--input-bg);
     position: relative;
     border-radius: 4px;
@@ -107,9 +108,9 @@
     border: 0;
     color: #454945;
     font-weight: 600;
-
     font-weight:600;
   }
+
   /* style for both icons -- search,close */
   .form svg {
     /* display: block; */
@@ -119,6 +120,7 @@
     height: 24px;
     margin-right: 100%;
   }
+
   /* search icon */
   .icon {
     position: absolute;
@@ -128,12 +130,14 @@
     justify-content: center;
     align-items: center;
   }
+
   /* arrow-icon*/
   .swap-off {
     transform: rotate(-80deg);
     opacity: 0;
     visibility: hidden;
   }
+
   /* close button */
   .close-btn {
     /* removing default bg of button */
@@ -208,7 +212,6 @@
     font-weight: 600;
   }
   
-
   .btn::after {
     content: '';
     border-bottom: 3px double rgb(255, 255, 255);
@@ -255,13 +258,9 @@
     }
   }
 
-
-    
   input::placeholder {
     color: rgb(8, 183, 61);
   }
-
-
 
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 * {
@@ -269,8 +268,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
- 
-}
+ }
 
 .navMenu {
   position: absolute;
@@ -291,13 +289,14 @@
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
-
   font-family: 'Teko', sans-serif;
-    font-size: 21px;
+  font-size: 21px;
 }
+
 .navMenu a:hover {
   color: #37cd09;
 }
+
 h3 {
   font-family: 'Teko', sans-serif;
  }

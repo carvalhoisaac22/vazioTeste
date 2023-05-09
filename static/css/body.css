@@ -1,9 +1,11 @@
 .carousel2-inner{
     filter: opacity(10%);
  }
+ 
 .carousel4-item  { 
     position: relative;
-}
+} 
+
 .carousel5-item  { 
     position: absolute;
     display: flex; 
@@ -11,12 +13,13 @@
     margin-left: 13%;
     margin-top: 26.6%;
     opacity: 0.8;
-  }
-  .carousel5-inner{
+}
+
+.carousel5-inner {
     position: relative;
  }
 
-  /*CARD DA HOME*/
+ /*CARD DA HOME*/
 .quemsomos3 p{
   width: 440px;
   padding-top: 90px;
@@ -25,7 +28,6 @@
   font-size: 16px;
   opacity: 1;
   color: white;
-  
 }
 
 .proeminencia {
@@ -33,6 +35,7 @@
     margin-left: 60%;
     margin-top: 10%;
 }
+
 .carousel3-item  { 
     position: relative;
  }
@@ -49,6 +52,7 @@
     margin-left: 55%;
     margin-top: 32%;
 }
+
 .inicial2 {
     position: absolute;
     margin-left: 73%;
@@ -93,25 +97,25 @@
     border-radius: var(--radii);
     color: var(--btn-bg-color);
     box-shadow: 0px 0px 20px rgba(25, 194, 70, 0.485), 0px 5px 5px -1px rgba(10, 140, 62, 0.25), inset 4px 4px 8px rgba(149, 195, 167, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
-  }
+}
   
-  .btn-donate:hover {
+.btn-donate:hover {
     background-position: right top;
-  }
+}
   
-  .btn-donate:is(:focus, :focus-within,:active) {
+.btn-donate:is(:focus, :focus-within,:active) {
     outline: none;
     box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
-  }
+}
   
-  @media (prefers-reduced-motion: reduce) {
-    .btn-donate {
-      transition: linear;
-    }
-  }
+@media (prefers-reduced-motion: reduce) {
+.btn-donate {
+    transition: linear;
+ }
+}
   
-  /* botao seguimentos 1*/
-  .btn-donate1 {
+/* botao seguimentos 1*/ 
+.btn-donate1 {
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(159, 244, 147);
     --btn-bg-2: rgb(255, 255, 255);
@@ -133,23 +137,23 @@
     box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
   }
   
-  .btn-donate1:hover {
+.btn-donate1:hover {
     background-position: right top;
   }
   
-  .btn-donate1:is(:focus, :focus-within,:active) {
+.btn-donate1:is(:focus, :focus-within,:active) {
     outline: none;
     box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
   }
   
-  @media (prefers-reduced-motion: reduce) {
-    .btn-donate1 {
-      transition: linear;
-    }
-  }
+@media (prefers-reduced-motion: reduce) {
+.btn-donate1 {
+    transition: linear;
+ }
+}
   
-  /* botao seguimentos 2*/
-  .btn-donate2 {
+/* botao seguimentos 2*/
+.btn-donate2 {
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(159, 244, 147);
     --btn-bg-2: rgb(255, 255, 255);
@@ -171,23 +175,23 @@
     box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
   }
   
-  .btn-donate2:hover {
+.btn-donate2:hover {
     background-position: right top;
   }
   
-  .btn-donate2:is(:focus, :focus-within,:active) {
+.btn-donate2:is(:focus, :focus-within,:active) {
     outline: none;
     box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
   }
   
-  @media (prefers-reduced-motion: reduce) {
-    .btn-donate2 {
-      transition: linear;
-    }
+@media (prefers-reduced-motion: reduce) {
+.btn-donate2 {
+    transition: linear;
   }
+}
 
-    /* botao seguimentos 3*/
-  .btn-donate3 {
+/* botao seguimentos 3*/
+.btn-donate3 {
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(159, 244, 147);
     --btn-bg-2: rgb(255, 255, 255);
@@ -207,35 +211,35 @@
     border-radius: var(--radii);
     color: var(--btn-bg-color);
     box-shadow: 0px 0px 20px rgba(0, 162, 43, 0.485), 0px 5px 5px -1px rgba(255, 255, 255, 0.25), inset 4px 4px 8px rgba(255, 255, 255, 0.867), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
-  }
+}
   
-  .btn-donate3:hover {
+.btn-donate3:hover {
     background-position: right top;
-  }
+}
   
-  .btn-donate3:is(:focus, :focus-within,:active) {
+.btn-donate3:is(:focus, :focus-within,:active) {
     outline: none;
     box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
-  }
+}
   
-  @media (prefers-reduced-motion: reduce) {
-    .btn-donate3 {
-      transition: linear;
-    }
-  }
+@media (prefers-reduced-motion: reduce) {
+.btn-donate3 {
+    transition: linear;
+ }
+}
 
 
 /*slide seguimentos*/
-  .slider1 {
+.slider1 {
     position: relative;
     width: 960px;
     height: 300px;
     margin: 50px auto;
     border-radius: 2%;
     overflow: hidden;
-  }
+}
   
-  .slider1-controls {
+.slider1-controls {
     position: absolute;
     bottom: 0px;
     left: 40%;
@@ -243,21 +247,20 @@
     text-align: center;
     transform: translatex(-50%);
     z-index: 1000;
-  
     list-style: none;
     text-align: center;
   }
   
-  .slider1 input[type="radio"] {
+.slider1 input[type="radio"] {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
   
-  .slider1-controls label {
+.slider1-controls label {
     display: inline-block;
     border: none;
     height: 20px;
@@ -266,11 +269,11 @@
     cursor: pointer;
     background-color: #212121;
     transition: background-color 0.2s linear;
-  }
+}
   
   #btn-1:checked ~ .slider1-controls label[for="btn-1"] {
     background-color: #ffffff;
-  }
+  } 
   
   #btn-2:checked ~ .slider1-controls label[for="btn-2"] {
     background-color: #ffffff;
@@ -294,16 +297,15 @@
     background-color: #ffffff;
   }
   
-  /* SLIDES */
-  
-  .slides1 {
+/* SLIDES */
+.slides1 {
     list-style: none;
     padding: 0;
     margin: 0;
     height: 100%;
-  }
+}
   
-  .slide1 {
+.slide1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -319,110 +321,114 @@
     border-radius: 15px;
     transition: transform 250ms linear;
     font-weight: 600;
-  }
+}
   
-  .slide1-content {
+.slide1-content {
     width: 400px;
-  }
+}
   
-  .slide1-title {
+.slide1-title {
     margin-bottom: 20px;
     font-size: 36px;
-  }
+}
   
-  .slide1-text {
+.slide1-text {
     margin-bottom: 20px;
-  }
+}
   
-  .slide1-link {
+.slide1-link {
     display: inline-block;
     padding: 10px 30px;
     color: #0c8927;
     border-radius: 10px;
     text-decoration: none;
     background-color: #ffffff;
-  }
+}
   
-  .slide1-image img {
+.slide1-image img {
     max-width: 100%;
     margin-top: 20%;
-  }
+}
   
-  /* Slide animations */
-  #btn-1:checked ~ .slides1 .slide1:nth-child(1) {
+/* Slide animations */
+#btn-1:checked ~ .slides1 .slide1:nth-child(1) {
     transform: translatex(0);
     opacity: 1;
-  }
+}
   
-  #btn-2:checked ~ .slides1 .slide1:nth-child(2) {
+#btn-2:checked ~ .slides1 .slide1:nth-child(2) {
     transform: translatex(0);
     opacity: 1;
-  }
+}
   
-  #btn-3:checked ~ .slides1 .slide1:nth-child(3) {
+#btn-3:checked ~ .slides1 .slide1:nth-child(3) {
     transform: translatex(0);
     opacity: 1;
-  }
-  #btn-4:checked ~ .slides1 .slide1:nth-child(1) {
+}
+
+#btn-4:checked ~ .slides1 .slide1:nth-child(1) {
     transform: translatex(0);
     opacity: 1;
-  }
+}
   
-  #btn-5:checked ~ .slides1 .slide1:nth-child(2) {
+#btn-5:checked ~ .slides1 .slide1:nth-child(2) {
     transform: translatex(0);
     opacity: 1;
-  }
+}
   
-  #btn-6:checked ~ .slides1 .slide1:nth-child(3) {
+#btn-6:checked ~ .slides1 .slide1:nth-child(3) {
     transform: translatex(0);
     opacity: 1;
-  }
-  #btn-7:checked ~ .slides1 .slide1:nth-child(3) {
+}
+
+#btn-7:checked ~ .slides1 .slide1:nth-child(3) {
     transform: translatex(0);
     opacity: 1;
-  }
+}
   
-  #btn-1:not(:checked) ~ .slides1 .slide1:nth-child(1) {
+#btn-1:not(:checked) ~ .slides1 .slide1:nth-child(1) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
+}
   
-  #btn-2:not(:checked) ~ .slides1 .slide1:nth-child(2) {
+#btn-2:not(:checked) ~ .slides1 .slide1:nth-child(2) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
+}
   
-  #btn-3:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+#btn-3:not(:checked) ~ .slides1 .slide1:nth-child(3) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
-  #btn-4:not(:checked) ~ .slides1 .slide1:nth-child(1) {
+}
+
+#btn-4:not(:checked) ~ .slides1 .slide1:nth-child(1) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
+}
   
-  #btn-5:not(:checked) ~ .slides1 .slide1:nth-child(2) {
+#btn-5:not(:checked) ~ .slides1 .slide1:nth-child(2) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
+}
   
-  #btn-6:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+#btn-6:not(:checked) ~ .slides1 .slide1:nth-child(3) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
-  #btn-7:not(:checked) ~ .slides1 .slide1:nth-child(3) {
+}
+
+#btn-7:not(:checked) ~ .slides1 .slide1:nth-child(3) {
     animation-name: swap-out;
     animation-duration: 300ms;
     animation-timing-function: linear;
-  }
+}
   
-  @keyframes swap-out {
+@keyframes swap-out {
     0% {
       transform: translatex(0);
       opacity: 1;
@@ -452,11 +458,10 @@
     300% {
       transform: translatex(300%);
     }
-  }
+}
   
-  
-  /* card home*/
-  .card {
+/* card home*/
+.card {
     width: 320px;
     height: 280px;
     border-radius: 10px;
@@ -466,20 +471,22 @@
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-   }
+}
    
-   .card-details {
+.card-details {
     color: black;
     height: 100%;
     gap: .5em;
     display: grid;
     place-content: center;
     border-radius: 100px;
-   }
-   img{
+}
+
+img {
     border-radius: 8px;
-   }
-   .card-button {
+}
+
+.card-button {
     transform: translate(-50%, 125%);
     width: 60%;
     border-radius: 1rem;
@@ -493,41 +500,40 @@
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
-   }
+}
    
-   .text-body {
+.text-body {
     color: rgb(134, 134, 134);
-   }
+}
    
-   /*Text*/
-   .text-title {
+/*Text*/
+.text-title {
     text-align: center;
     align-items: center;
     margin-top: 5%;
     color: #0c8927;
     font-weight: bold;
-   }
+}
    
-   /*Hover*/
-   .card:hover {
+/*Hover*/
+.card:hover {
     border-color: #28a33a;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-   }
+}
    
-   .card:hover .card-button {
+.card:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
-   }
+}
   
-   /*SUB-NAVBAR*/
-
+/*SUB-NAVBAR*/
 .navMenu a{
-color: #ffffff;
-background-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
 }
 
 .navMenu:hover{
-  color: #22e940;
+    color: #22e940;
 }
 
 
