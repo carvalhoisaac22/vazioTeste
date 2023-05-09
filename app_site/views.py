@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'app_site/home.html')
+
+
+def nutricao(request):
+    return render(request, 'app_site/nutricao.html')
