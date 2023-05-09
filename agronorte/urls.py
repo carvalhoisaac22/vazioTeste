@@ -22,3 +22,5 @@ urlpatterns = [
     path('', home),
     path('nutricao/',nutricao)
 ]
+
+

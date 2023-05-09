@@ -2,6 +2,7 @@ footer {
     border-top: 11px solid;
     text-align: left;
     color: #35a356;
+    display: flex;
 }
 .larg-3 {
     display: flex;
@@ -49,6 +50,7 @@ footer {
     width: 1px;   
     border-color: rgb(147, 160, 147);
     margin-right: 15%;
+    display: flex;
 }
 
 /* hr final */
