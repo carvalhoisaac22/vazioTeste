@@ -20,8 +20,8 @@ from app_site.views import home, nutricao
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
-    path('nutricao/',nutricao)
+    path('', home, name='home'),
+    path('nutricao/',nutricao, name='nutricao'),
 ]
 
 
