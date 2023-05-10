@@ -26,7 +26,6 @@ SECRET_KEY = 'django-insecure-#t4i4c!23^nccx@@zy2t^g5_wj4(w=rwwvmq^m!u68=3iz2cak
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -39,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_site',
-
 ]
+
+
+
+ALLOWED_HOSTS = ['192.168.0.6', '127.0.0.1','localhost']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -50,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-  
+    'livereload.middleware.LiveReloadScript',
 ]
 
 ROOT_URLCONF = 'agronorte.urls'
@@ -111,6 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
 
 
 # Internationalization

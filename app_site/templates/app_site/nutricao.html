@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -5,14 +8,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="icon" type="image/png" href="/img/Curva (5).png">
+    <link rel="icon" type="image/png" href="{% static '/img/Curva (5).png'%}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/nutricao/footer.css">
+    <link rel="stylesheet" href="{% static '/css/nutricao/footer.css'%}">
     <link rel="stylesheet" href="js/rascunho.js">
     <link rel="stylesheet" href="js/rascunho.js">
-    <link rel="stylesheet" href="/css/home/navbar.css">
-    <link rel="stylesheet" href="/css/nutricao/body.css">
+    <link rel="stylesheet" href="{% static '/css/nutricao/navbar.css'%}">
+    <link rel="stylesheet" href="{% static '/css/nutricao/body.css'%}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
@@ -22,15 +25,14 @@
   <body>
     <!--NAVBAR PRINCIPAL DO SITE-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/index.html">
-            <img src="/img/agrologo.png">
+            <img src="{% static '/img/agrologo.png'%}">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav pl-20">
-            <a class="nav-item nav-link active text-primary" href="/nutricao.html">NUTRIÇÃO <span class="sr-only">(Página atual)</span></a>
+            <a class="nav-item nav-link active text-primary" href="templates/nutricao.html">NUTRIÇÃO <span class="sr-only">(Página atual)</span></a>
             <a class="nav-item nav-link active text-primary" href="#">LOGÍSTICA <span class="sr-only">(Página atual)</span></a>
             <a class="nav-item nav-link active text-primary" href="#">POSTO <span class="sr-only">(Página atual)</span></a>
             <a class="nav-item nav-link active text-primary" href="#">CONVENIÊNCIA <span class="sr-only">(Página atual)</span></a>
