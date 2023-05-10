@@ -26,7 +26,6 @@ SECRET_KEY = 'django-insecure-#t4i4c!23^nccx@@zy2t^g5_wj4(w=rwwvmq^m!u68=3iz2cak
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [['192.168.0.6', 'localhost']]
 
 
 # Application definition
@@ -39,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_site',
-
-    
 ]
+
+
+
+ALLOWED_HOSTS = ['192.168.0.6', '127.0.0.1','localhost']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,9 +81,9 @@ WSGI_APPLICATION = 'agronorte.wsgi.application'
 
 
 
-"""DATABASES = {
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
         'PORT': 3306,
         'USER': 'admin',
@@ -90,7 +91,7 @@ WSGI_APPLICATION = 'agronorte.wsgi.application'
         'NAME': 'site',
        
     }
-}"""
+}
 
 
 

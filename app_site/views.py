@@ -8,3 +8,5 @@ def home(request):
 
 def nutricao(request):
     return render(request, 'app_site/nutricao.html')
+
+
