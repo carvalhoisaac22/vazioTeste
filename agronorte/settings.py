@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'agronorte.wsgi.application'
 
 
 
-"""DATABASES = {
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
         'PORT': 3306,
         'USER': 'admin',
@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'agronorte.wsgi.application'
         'NAME': 'site',
        
     }
-}"""
+}
 
 
 
